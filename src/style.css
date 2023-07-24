@@ -456,7 +456,7 @@ html {
     padding-top: 150px !important;
     padding-bottom: 30px !important;
     /* background-image: var(--section-background-color) !important;    */
-    background-color: whitesmoke;
+    background-color: rgb(209, 203, 214);
   }
   
   .project-card {
@@ -465,13 +465,14 @@ html {
     padding-left: 25px !important;
     padding-right: 25px !important;
     height: auto !important;
+    
   }
   
   
   .project-card-view {
     box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459) !important;
     color: blue !important;
-    background-color: transparent !important;
+    background-color: whitesmoke !important;
     opacity: 0.9 !important;
     transition: all 0.5s ease 0s !important;
     height: 100% !important;

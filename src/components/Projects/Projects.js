@@ -4,7 +4,9 @@ import ProjectCard from "./ProjectCard";
 import tosterimg from "../../Assets/toster.png"
 import mgimg from "../../Assets/musicglass.png"
 import pathfinderimg from "../../Assets/pathfinder.png"
-
+import mycouncilimg from  "../../Assets/mycouncil.png"
+import fleximg from  "../../Assets/flex.png"
+import datimg from  "../../Assets/dat.png"
 
 
 function Projects() {
@@ -16,19 +18,19 @@ function Projects() {
           My Recent <strong className="purple">Projects </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
+          Here are some of my favorite projects!
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
 
         <Col md={4} className="project-card">
             <ProjectCard
-            //   imgPath={suicide}
+              imgPath={datimg}
 
               title="Load Board Automation"
               status = "Status: In Progress"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              description="I am currently working on a Typescript program to find optimal loads for a local trucking company by webscraping the DAT load board. The program runs twice a day and uses an algorithm to take into account price, downtime, and credit; it then uses nodemailer to send report emails to the trucking company with suggested loads. "
+              ghLink=""
+
             />
           </Col>
 
@@ -38,7 +40,7 @@ function Projects() {
               imgPath={tosterimg}
 
               title="TOS-ter"
-              description="TOS-ter is a full stack web application built using a MERN stack and OpenAI's API, that uses large language models to summarize terms of service documents. It also generates a privacy rating based on the contract's details and historical information about the company."
+              description="TOS-ter is a full stack web application built using a MERN stack and OpenAI's API, that uses large language models to summarize terms of service documents. The app allows users to upload a pdf of a terms of service contract, and also generates a privacy rating based on the contract's details and historical information about the company."
               ghLink="https://github.com/larryz1230/TOSter"
               demoLink="https://devpost.com/software/tos-ter"
             />
@@ -68,37 +70,28 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-            //   imgPath={leaf}
+              imgPath={mycouncilimg}
 
               title="MyCouncil"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/aarli421/PathfinderApp"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              status = "Awards: Epsilon Hacks Best App"
+              description="MyCouncil is a mobile forum application built using Android Studio with the goal of providing direct communication between citizens and local government. In order to maintain clean code, we used object-oriented programming to manage users, posts, and polls on our application. "
+              ghLink="https://github.com/aarli421/MyCouncilApp"
+              demoLink="https://devpost.com/software/mycouncil"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-            //   imgPath={suicide}
+              imgPath={fleximg}
 
               title="Flexbot"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              description="This is a python script that I developed to automate 'flex time' signups at my high school. Instead of spending a couple minutes signing in and selecting a classroom every day, I used selenium's webdriver to do it for me. By writing an algorithm to check for valid school days, I was able to sign up for the entire school year in just a couple minutes. I would later add additional features, like selecting different classrooms on different days of the week."
+              ghLink="https://github.com/larryz1230/flexx"
+        
             />
           </Col>
 
-          {/* <Col md={4} className="project-card">
-            <ProjectCard
-            //   imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
-            />
-          </Col> */}
+
         </Row>
       </Container>
     </Container>
