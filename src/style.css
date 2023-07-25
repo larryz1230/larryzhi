@@ -198,7 +198,7 @@ html {
     height: 5px;
     width: 0;
     border-radius: 16px;
-    background: #c95bf5;
+    background: whitesmoke;
     bottom: 1px;
     left: 0;
     z-index: -1;
@@ -261,8 +261,8 @@ html {
   .home-section {
     position: relative;
     z-index: -1;
-    /* background-image: var(--image-gradient), url(./Assets/home-bg.jpg); */
-    background-color: #2D5DA1;
+    /* background-image: var(--image-gradient), url(./Assets/nature-minimalist-style-191.jpg); */
+    background-color: #9abddc;
     background-position: top center;
     background-repeat: no-repeat;
     padding-bottom: 30px !important;
@@ -276,7 +276,7 @@ html {
   }
   
   .heading {
-    font-size: 2.4em !important;
+    font-size: 3em !important;
     padding-left: 50px !important;
     color: white;
   }
@@ -292,7 +292,7 @@ html {
   }
   
   .Typewriter__wrapper {
-    font-size: 1.5em !important;
+    font-size: 1.8em !important;
     color: white !important;
     font-weight: 300 !important;
   }
@@ -456,7 +456,7 @@ html {
     padding-top: 150px !important;
     padding-bottom: 30px !important;
     /* background-image: var(--section-background-color) !important;    */
-    background-color: rgb(209, 203, 214);
+    background-color: #9abddc;
   }
   
   .project-card {
@@ -519,6 +519,10 @@ html {
     opacity: 0.8 !important;
     border-radius: 10px !important;
   }
+
+  .img-fluid{
+    width: 400px;
+  }
   
   .blog-img {
     padding: 0px !important;
@@ -542,7 +546,7 @@ html {
     box-shadow: none !important;
   }
   .project-heading {
-    color: blue !important;
+    color: white !important;
     font-size: 2.3em !important;
     font-weight: 500 !important;
     padding-top: 10px !important;

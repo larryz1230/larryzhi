@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import avatar from "../../Assets/hand.png";
+import avatar from "../../Assets/dino.gif";
 import NavBar from "../Navbar";
 // import Particle from "../Particle";
 import Home2 from "./Home2";
@@ -15,16 +15,16 @@ function Home() {
         <Container className="home-content">
           <Row>
             <Col md={7} className="home-header">
-              <h1 style={{ paddingBottom: 15 }} className="heading">
-                Hi There!{" "}
+              <h1 style={{ paddingBottom: 10 }} className="heading">
+                Hi there, {"     "} I'm Larry !
               </h1>
-
+{/* 
               <h1 className="heading-name">
                 My name is 
                 <strong className="main-name"> Larry Zhi</strong>
-              </h1>
+              </h1> */}
 
-              <div style={{ padding: 50, textAlign: "left" }}>
+              <div style={{ padding: 50, paddingTop:30, textAlign: "left" }}>
                 <Type />
               </div>
             </Col>
@@ -34,7 +34,7 @@ function Home() {
                 src={avatar}
                 alt="home pic"
                 className="img-fluid"
-                style={{ maxHeight: "450px" }}
+                style={{ maxHeight: "300px", maxWidth: "350px" }}
               />
             </Col>
           </Row>
