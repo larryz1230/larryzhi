@@ -29,4 +29,4 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-Credits to [Soumyajit4419]([url](https://github.com/soumyajit4419/Portfolio)https://github.com/soumyajit4419/Portfolio) for the Project Cards template
+Credits to [Soumyajit4419](https://github.com/soumyajit4419/Portfolio)https://github.com/soumyajit4419/Portfolio) for the Project Cards template
