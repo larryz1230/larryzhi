@@ -18,11 +18,11 @@ function Home2() {
       <Container>
         <Row>
 
-          <h1 style={{ fontSize: "2.6em"}}  className="about2-heading">
+          <h1 style={{ fontSize: "2.5em"}}  className="about2-heading">
               Mission
             </h1>
 
-            <p className="about2-body">Use technol fwenjfnewjk ewjfnjkewfnj wnfeknjew knfjnewjf jkewnjkfnejn fjenfjejf jef fej fefj nejf </p>
+            <p className="about2-body"> I'm a curious, driven tech enthusiast who is passionate about using computer science principles to solve real-world challenges and create innovative solutions that can positively impact people's lives. </p>
 
           </Row>
 
@@ -31,7 +31,7 @@ function Home2() {
             <Row>
           
           <Col md={8} className="about2-description">
-            <h1 style={{ fontSize: "2.6em"}}  className="about2-heading">
+            <h1 style={{ fontSize: "2.5em"}}  className="about2-heading">
               Academic Summary
             </h1>
             <p className="about2-body">
@@ -62,9 +62,9 @@ function Home2() {
             
           </Col>
           <Col md={3} className="myAvtar">
-            <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
-            </Tilt>
+           
+              <img src={myImg} className="img-fluid" alt="UCLA bear" />
+           
 
             
           </Col>
@@ -82,7 +82,7 @@ function Home2() {
 
 
         <Col md={8} className="about2-description">
-            <h1 className="about2-heading" style={{ fontSize: "2.6em"}}>
+            <h1 className="about2-heading" style={{ fontSize: "2.5em"}}>
               Activities
             </h1>
             <p className="about2-body">
@@ -114,9 +114,9 @@ function Home2() {
           </Col>
 
           <Col md={3} className="myAvtar">
-            <Tilt>
-              <img src={acm} className="img-fluid" alt="avatar" />
-            </Tilt>
+            
+              <img src={acm} className="img-fluid" alt="group ACM photo" />
+          
 
             
           </Col>
@@ -134,7 +134,7 @@ function Home2() {
           <Row>
 
           <Col md={8} className="about2-description">
-            <h1 className="about2-heading" style={{ fontSize: "2.6em"}}>
+            <h1 className="about2-heading" style={{ fontSize: "2.5em"}}>
               Volunteering
             </h1>
             <p className="about2-body">
@@ -164,9 +164,9 @@ function Home2() {
           </Col>
 
           <Col md={3} className="myAvtar">
-            <Tilt>
-              <img src={lahacks} className="img-fluid" alt="avatar" />
-            </Tilt>
+           
+              <img src={lahacks} className="img-fluid" alt="teachla icon" />
+            
 
             
           </Col>

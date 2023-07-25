@@ -11,8 +11,8 @@ function About() {
 
       <Container>
         <Row style={{ justifyContent: "center", padding: "10px" }}>
-        <h1 style={{ fontSize: "2.5em", paddingBottom: "20px", fontWeight: "500" }}>
-              More About Me!
+        <h1 style={{ fontSize: "2.8em", paddingBottom: "20px", fontWeight: "500" }}>
+              About Me!
             </h1>
         </Row>
 

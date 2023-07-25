@@ -2,7 +2,6 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import avatar from "../../Assets/dino.gif";
 import NavBar from "../Navbar";
-// import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
 
@@ -32,7 +31,7 @@ function Home() {
             <Col md={5} style={{ paddingBottom: 20 }}>
               <img
                 src={avatar}
-                alt="home pic"
+                alt="cute dino home pic"
                 className="img-fluid"
                 style={{ maxHeight: "300px", maxWidth: "350px" }}
               />

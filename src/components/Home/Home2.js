@@ -7,7 +7,7 @@ import {
   AiOutlineTwitter,
   AiFillInstagram,
 } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import { FaLinkedinIn, FaEnvelope } from "react-icons/fa";
 
 function Home2() {
   return (
@@ -44,15 +44,15 @@ function Home2() {
               
     
               <br />
-              I also love coding in my free time!   I frequently participate in hackathons for fun and also recently began self-learning ML from online resources. Check out some of my projects in the projects tab!
+              I also love coding in my free time!   I frequently participate in hackathons for fun and also recently began self-learning ML from online resources. Check out some of my <a href="/projects">projects</a> in the projects tab!
               <br />
               <br />
             </p>
           </Col>
           <Col md={4} className="myAvtar">
-            <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
-            </Tilt>
+      
+              <img src={myImg} className="img-fluid" alt="selfie" />
+          
           </Col>
         </Row>
         <Row>
@@ -90,6 +90,17 @@ function Home2() {
                   className="icon-colour home-social-icons"
                 >
                   <AiFillInstagram />
+                </a>
+              </li>
+
+              <li className="social-icons">
+                <a
+                  href="mailto: lzhi@g.ucla.edu"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour home-social-icons"
+                >
+                  <FaEnvelope />
                 </a>
               </li>
             </ul>
