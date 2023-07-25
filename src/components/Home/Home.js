@@ -33,7 +33,7 @@ function Home() {
                 src={avatar}
                 alt="cute dino home pic"
                 className="img-fluid"
-                style={{ maxHeight: "300px", maxWidth: "350px" }}
+                style={{ maxHeight: "300px", maxWidth: "300px" }}
               />
             </Col>
           </Row>
