@@ -323,6 +323,35 @@ html {
       padding-bottom: 2em !important;
     }
   }
+
+  .about2-section {
+    position: relative;
+    padding-bottom: 70px !important;
+    padding-top: 70px !important;
+    text-align: left;
+    
+  }
+
+  .about2-description{
+    color: black !important;
+    padding-top: 40px !important;
+    padding-bottom: 20px !important;
+    text-align: left;
+    /* background-color: pink; */
+  }
+
+  .about2-heading{
+    padding-top: 0px;
+    color: blue;
+    
+  }
+
+  .about2-body{
+    color: black;
+    padding-top: 30px;
+    font-size: 1.2em !important;
+    text-align: left;
+  }
   
   .home-about-section {
     position: relative;
