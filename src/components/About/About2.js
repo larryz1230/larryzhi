@@ -26,15 +26,15 @@ function Home2() {
               
               <ul>
               <li>
-                <p> Playing soccer ⚽ and ultimate frisbee 🥏 (we just won our IM tournament!) </p>
+                <p> Playing soccer and ultimate frisbee (we just won our IM tournament!) </p>
               </li>
 
               <li>
-                <p> Hiking / taking photos of nature 📷 </p>
+                <p> Hiking / taking photos of nature </p>
               </li>
 
               <li>
-                <p> Listening to kpop 🎵 (mostly Twice, Le Sserafim, and Enhypen) </p>
+                <p> Listening to kpop </p>
               </li>
 
               {/* <li>
@@ -44,7 +44,7 @@ function Home2() {
               
     
               <br />
-              I also love coding in my free time!   I frequently participate in hackathons for fun and also recently began self-learning ML from online resources. Check out some of my projects in the projects tab!
+              I also love coding in my free time!   I frequently participate in hackathons for fun and also recently began self-learning ML from online resources.
               <br />
               <br />
             </p>
