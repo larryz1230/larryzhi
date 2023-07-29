@@ -34,6 +34,10 @@ function Home2() {
               </li>
 
               <li>
+                <p> Playing chess ♟️ with my friends </p>
+              </li>
+
+              <li>
                 <p> Listening to kpop 🎵 (mostly Twice, Le Sserafim, and Enhypen) </p>
               </li>
 

@@ -35,7 +35,7 @@ function Home2() {
               Academic Summary
             </h1>
             <p className="about2-body">
-            <h3>American High School</h3>
+            <h3>American High School (Aug 2018 - Jun 2022)</h3>
               <ul>
                 <li>Honor Graduate (Top 10 in Graduating Class)</li>
                 <li>4.0 UW GPA</li>
@@ -43,7 +43,7 @@ function Home2() {
 
               <br />
 
-              <h3>UCLA</h3>
+              <h3>UCLA (Sep 2022 - Jun 2026)</h3>
               <ul>
                 <li>Majoring in Computer Science (B.S.) in the Henry Samueli School of Engineering and Applied Science
 </li>
@@ -90,14 +90,14 @@ function Home2() {
               <ul>
                 <li>Organize and oversee large-scale ACM events with over <strong>700 attendees</strong> like Fall GM, Winter GM, and the Tech Gala.</li>
                 <li>Work with UPE and the UCLA CS department in organizing CS Welcome Day for incoming freshmen</li>
-                <li>Foster communication and collaboration between 8 different ACM committees, as well reach out to other engineering clubs on campus</li>
+                <li>Foster communication and collaboration between <strong> 8 different ACM committees</strong>, as well reach out to other engineering clubs on campus</li>
               </ul>
 
               <br />
 
               <h3>UPE Mentorship Chair</h3>
               <ul>
-                <li>UPE stands for Upsilon Pi Epsilon, and is the computer science honors society at UCLA </li>
+                <li>UPE stands for Upsilon Pi Epsilon, and is the <strong>computer science honors society </strong>  at UCLA </li>
                 <li>Work with the mentorship committee to organize mentorship and career development opportunities such as mock interviews, career talks, and various socials. </li>
                 <li>As an inductee, I also tutor CS and other STEM subjects two hours per week</li>
               </ul>
@@ -141,7 +141,7 @@ function Home2() {
               <h3>ACM TeachLA Instructor</h3>
               <ul>
                 <li> Create original course material on React Js to present weekly to local high schoolers from North Hollywood High School.</li>
-                <li>Present React and Firebase workshops to over 200 people during QWER Hacks and LA Hacks.</li>
+                <li>Present React and Firebase workshops to over <strong>200 attendees </strong> during QWER Hacks and LA Hacks.</li>
               </ul>
 
               <br />
