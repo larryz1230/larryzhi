@@ -40,6 +40,7 @@ function Projects() {
               imgPath={tosterimg}
 
               title="TOS-ter"
+              status = "Awards: Mega Hackathon 2023 Second Place"
               description="TOS-ter is a full stack web application built using a MERN stack and OpenAI's API, that uses large language models to summarize terms of service documents. The app allows users to upload a pdf of a terms of service contract, and also generates a privacy rating based on the contract's details and historical information about the company."
               ghLink="https://github.com/larryz1230/TOSter"
               demoLink="https://devpost.com/software/tos-ter"

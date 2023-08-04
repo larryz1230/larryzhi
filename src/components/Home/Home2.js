@@ -34,7 +34,7 @@ function Home2() {
               </li>
 
               <li>
-                <p> Playing chess ♟️ with my friends </p>
+                <p> Solving chess puzzles♟️ and NYT's mini crosswords </p>
               </li>
 
               <li>
