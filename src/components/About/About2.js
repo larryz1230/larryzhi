@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col, Tab } from "react-bootstrap";
 import myImg from "../../Assets/ucla.png";
-import lahacks from "../../Assets/teach.png";
+import lahacks from "../../Assets/tla.png";
 import acm from "../../Assets/acm.png";
 import Tilt from "react-parallax-tilt";
 import Table from "./Table";
@@ -22,7 +22,7 @@ function Home2() {
               Mission
             </h1>
 
-            <p className="about2-body"> I'm a curious, driven tech enthusiast who is passionate about using computer science principles to solve real-world challenges and create innovative solutions that can positively impact people's lives. </p>
+            <p className="about2-body"> I'm a curious, driven, tech enthusiast who is passionate about applying computer science principles in software development, as well as creating mobile and web applications. I hope that by blending my technical skills with some creative thinking, I can create innovative products that can positively impact people's lives. </p>
 
           </Row>
 
@@ -115,7 +115,7 @@ function Home2() {
 
           <Col md={3} className="myAvtar">
             
-              <img src={acm} className="img-fluid" alt="group ACM photo" />
+              <img src={acm} className="img-fluid" alt="Group photo at ACM's annual banquet" />
           
 
             
@@ -165,7 +165,7 @@ function Home2() {
 
           <Col md={3} className="myAvtar">
            
-              <img src={lahacks} className="img-fluid" alt="teachla icon" />
+              <img src={lahacks} className="img-fluid" alt="Photo of our React workshop at LAHacks" />
             
 
             
