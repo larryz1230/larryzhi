@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
+import { Analytics } from '@vercel/analytics/react';
 
 
 
@@ -32,6 +33,7 @@ function App() {
 
   return (
     <Router>
+      <Analytics />
       <Preloader load={load} />
       <div className="App" id={load ? "no-scroll" : "scroll"}>
         <Navbar />
@@ -45,6 +47,7 @@ function App() {
         {/* <Footer /> */}
       </div>
     </Router>
+    
   );
 }
 
