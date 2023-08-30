@@ -7,6 +7,8 @@ import pathfinderimg from "../../Assets/pathfinder.png"
 import mycouncilimg from  "../../Assets/mycouncil.png"
 import fleximg from  "../../Assets/flex.png"
 import datimg from  "../../Assets/dat.png"
+import pnet from "../../Assets/pnet.png"
+import peachp from "../../Assets/peachp.png"
 
 
 function Projects() {
@@ -34,6 +36,18 @@ function Projects() {
             />
           </Col>
 
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={datimg}
+
+              title="Travel Application"
+              status = "Status: In Progress"
+              description="My team and I are currently working on an application that inputs raw transportation and housing data into OpenAI's language processing model to extract travel itineraries. My contribution so far consists mainly of writing python webscraping scripts using Playwright and BeautifulSoup to retrieve flight/housing price data straight from major airline and hotel websites and formatting this data uniformly."
+              ghLink=""
+
+            />
+          </Col>
+
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -52,7 +66,7 @@ function Projects() {
               imgPath={mgimg}
 
               title="Music Glass"
-              description="Music Glass is a web application that generates a playlist for any activity. The app first uses OpenAI API to convert text into the most relevant genres, then uses Spotify API and dynamic programming algorithms to generate a playlist with the exact time length that the user inputs."
+              description="Music Glass is a web application my team and I created at LA Hacks 2023 that generates a playlist for any activity. The app first uses OpenAI API to convert text into the most relevant genres, then uses Spotify API and dynamic programming algorithms to generate a playlist with the exact time length that the user inputs."
               ghLink="https://github.com/yimmyj/LAHacks2023/tree/main"
               demoLink="https://devpost.com/software/music-glass"
             />
@@ -63,7 +77,7 @@ function Projects() {
               imgPath={pathfinderimg}
 
               title="PathFinder"
-              description="PathFinder is a React Native application that helps small businesses and delivery drivers maximize revenue by minimizing delivery times through route optimization (travelling salesman algorithm). My team and I used data from Google Maps API and also implemented a LAMP stack backend where we wrote php code to interact with the mysql database."
+              description="PathFinder is a React Native application that runs on both Android and IOS and helps small businesses and delivery drivers maximize revenue by minimizing delivery times through route optimization (travelling salesman algorithm). My team and I gathered map and traffic data from Google Maps API and also implemented a LAMP stack backend where we used PHP scripts to interact with our mySQL database."
               ghLink="https://github.com/aarli421/PathfinderApp"
               demoLink="https://devpost.com/software/pathfinder-yw78fq"              
             />
@@ -75,7 +89,7 @@ function Projects() {
 
               title="MyCouncil"
               status = "Awards: Epsilon Hacks Best App"
-              description="MyCouncil is a mobile forum application built using Android Studio with the goal of providing direct communication between citizens and local government. In order to maintain clean code, we used object-oriented programming to manage users, posts, and polls on our application. "
+              description="MyCouncil is a mobile forum application built using Android Studio with the goal of providing direct communication between citizens and local government. In order to maintain clean code, we used object-oriented programming to manage users, posts, and polls on our application. For databasing, we used PHP and mySQL through our LAMP stack backend. "
               ghLink="https://github.com/aarli421/MyCouncilApp"
               demoLink="https://devpost.com/software/mycouncil"
             />
@@ -88,6 +102,28 @@ function Projects() {
               title="Flexbot"
               description="This is a python script that I developed to automate 'flex time' signups at my high school. Instead of spending a couple minutes signing in and selecting a classroom every day, I used selenium's webdriver to do it for me. By writing an algorithm to check for valid school days, I was able to sign up for the entire school year in just a couple minutes. I would later add additional features, like selecting different classrooms on different days of the week."
               ghLink="https://github.com/larryz1230/flexx"
+        
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={pnet}
+
+              title="Pnet Phlix"
+              description="This project is a movie recommendation app built with C++ that ranks real-world films according to user compatibility. This compatibility was calculated based on genre/actor/director similarities with user’s watch history (i.e. each similar actor in the user's watch history would increase the movie's compatibility score by 10). I created optimized BST multimaps to load data from .txt files and calculate scores for 20K+ movies & 100K+ users in < 1s."
+              ghLink="https://github.com/larryz1230/pnetphlix"
+        
+            />
+          </Col>
+
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={peachp}
+              title="Peach Party"
+              description="Peach Party is a board game created using C++ that is similar to the video game Mario Party. Players roll dice and obtain gold and stars while advancing through the map, choosing directions whenever their character hits a fork and teleporting on special squares. This project heavily utilized object-oriented programming techniques as there were over 15 different clases of characters, tiles, and projectiles in the game."
+              ghLink="https://github.com/larryz1230/PeachParty"
         
             />
           </Col>
