@@ -47,7 +47,7 @@ function Home2() {
               <ul>
                 <li>Majoring in Computer Science (B.S.) in the Henry Samueli School of Engineering and Applied Science
 </li>
-                <li>4.0 UW GPA</li>
+                <li>3.92 UW GPA</li>
                 <li>Dean's Honor List</li>
               </ul>
 
@@ -86,21 +86,26 @@ function Home2() {
               Activities
             </h1>
             <p className="about2-body">
-              <h3>ACM Board Operations Director</h3>
+
+            <h3>ACM Internal Vice President</h3>
+              <p>Mar 2023 - Present</p>
+              <ul>
+                <li>IVP of <strong>SoCal's biggest undergrad CS org </strong>; support 200+ officers, 100+ interns across 8 committees </li>
+                <li>Co-organized CS Town Halls, Grad School Panels, Industry Events, New Student Events and more</li>
+                <li>Engineered a JavaScript script to extract officer data from the organization's directory and transform it into a structured JSON file; used Next.js to map the parsed data into a functional and responsive officers page.
+</li>
+              </ul>
+
+              <br></br>
+              <h3>ACM Operations Director</h3>
+              <p>Oct 2022 - Mar 2023</p>
               <ul>
                 <li>Organize and oversee large-scale ACM events with over <strong>700 attendees</strong> like Fall GM, Winter GM, and the Tech Gala.</li>
                 <li>Work with UPE and the UCLA CS department in organizing CS Welcome Day for incoming freshmen</li>
                 <li>Foster communication and collaboration between <strong> 8 different ACM committees</strong>, as well reach out to other engineering clubs on campus</li>
               </ul>
 
-              <br />
-
-              <h3>UPE Mentorship Chair</h3>
-              <ul>
-                <li>UPE stands for Upsilon Pi Epsilon, and is the <strong>computer science honors society </strong>  at UCLA </li>
-                <li>Work with the mentorship committee to organize mentorship and career development opportunities such as mock interviews, career talks, and various socials. </li>
-                <li>As an inductee, I also tutor CS and other STEM subjects two hours per week</li>
-              </ul>
+             
 
     
             </p>
@@ -139,6 +144,7 @@ function Home2() {
             </h1>
             <p className="about2-body">
               <h3>ACM TeachLA Instructor</h3>
+              <p>Jan 2023 - Present</p>
               <ul>
                 <li> Create original course material on React Js to present weekly to local high schoolers from North Hollywood High School.</li>
                 <li>Present React and Firebase workshops to over <strong>200 attendees </strong> during QWER Hacks and LA Hacks.</li>
@@ -146,13 +152,16 @@ function Home2() {
 
               <br />
 
-              <h3>iSTEM Co-founder/Volunteer</h3>
-              <ul>
-                <li>Created original course material using Micro:bits to teach over 50 elementary and middle school students basic Python skills for free</li>
 
+              <h3>UPE Mentorship Chair</h3>
+              <p>May 2023 - Present</p>
+              <ul>
+                <li>UPE stands for Upsilon Pi Epsilon, and is the <strong>computer science honors society </strong>  at UCLA </li>
+                <li>Work with the mentorship committee to organize mentorship and career development opportunities such as mock interviews, career talks, and various socials. </li>
+                <li>As an officer, I also tutor CS and other STEM subjects two hours per week</li>
               </ul>
 
-    
+              
             </p>
             
            

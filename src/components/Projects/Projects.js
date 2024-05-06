@@ -9,6 +9,7 @@ import fleximg from  "../../Assets/flex.png"
 import datimg from  "../../Assets/dat.png"
 import pnet from "../../Assets/pnet.png"
 import peachp from "../../Assets/peachp.png"
+import datewalk from "../../Assets/datewalk.png"
 
 
 function Projects() {
@@ -36,14 +37,15 @@ function Projects() {
             />
           </Col>
 
+         
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={datimg}
+              imgPath={datewalk}
 
-              title="Travel Application"
-              status = "Status: In Progress"
-              description="My team and I are currently working on an application that inputs raw transportation and housing data into OpenAI's language processing model to extract travel itineraries. My contribution so far consists mainly of writing python webscraping scripts using Playwright and BeautifulSoup to retrieve flight/housing price data straight from major airline and hotel websites and formatting this data uniformly."
-              ghLink=""
+              title="Datewalk"
+              description="Datewalk is a web-based dating application that aims to simplify building new relationships at UCLA. Users are matched based on certain tags that they pick for themselves within their profile or upon registration, as well as reviews given by previously matched users that rate their experience with the current user. This application was created with the MERN stack, which consists of MongoDB, Express, React, and Node JS. "
+              demoLink="https://drive.google.com/file/d/1WQdIX0PhD1p1y0eTtbZCbQ2KRIsF9Agn/view"
+              ghLink="https://github.com/ParsaHaji09/datingapp35L"
 
             />
           </Col>

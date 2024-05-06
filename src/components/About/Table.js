@@ -27,28 +27,43 @@ function Table() {
 
   <tbody>
 
+
   <tr>
-      <th scope="row">COM SCI 180</th>
-      <td>Algorithms and Complexity</td>
+      <th scope="row">COM SCI 181</th>
+      <td>Theory of Computing</td>
       <td>4.0</td>
       <td>In progress</td>
     </tr>
     <tr>
-      <th scope="row">COM SCI 35L</th>
-      <td> Software Construction Lab</td>
-      <td>4.0</td>
-      <td>In progress</td>
-    </tr>
-    <tr>
-      <th scope="row">MATH 33B</th>
-      <td> Differential Equations</td>
+      <th scope="row">COM SCI 131</th>
+      <td> Programming Languages</td>
       <td>4.0</td>
       <td>In progress</td>
     </tr>
 
     <tr>
-      <th scope="row">MATH 61</th>
-      <td>Discrete Structures</td>
+      <th scope="row">COM SCI 111</th>
+      <td> Operating Systems</td>
+      <td>5.0</td>
+      <td>A</td>
+    </tr>
+
+    <tr>
+      <th scope="row">COM SCI 35L</th>
+      <td> Software Construction Lab</td>
+      <td>4.0</td>
+      <td>A</td>
+    </tr>
+    <tr>
+      <th scope="row">MATH 33B</th>
+      <td> Differential Equations</td>
+      <td>4.0</td>
+      <td>A</td>
+    </tr>
+
+    <tr>
+      <th scope="row">MATH 115A</th>
+      <td>Linear Algebra (Upper Div)</td>
       <td>4.0</td>
       <td>A</td>
     </tr>
